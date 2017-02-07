@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Tue Feb 07 15:19:01 GMT-05:00 2017
+threads=1
+total=63000
+threadAverage=63000
+stories/consult_dictionary/LookupADefinition.story=63000

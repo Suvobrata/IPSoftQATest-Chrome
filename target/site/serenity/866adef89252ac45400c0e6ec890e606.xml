@@ -1,0 +1,41 @@
+<acceptance-test-run title="Looking up the wikipedia english page" name="Looking up the wikipedia english page" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="48969" timestamp="2017-02-06T22:21:07.004-05:00" session-id="4e2ca9cf-310f-4a87-b118-24958c1662eb">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Wikipedia home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a9b1a033bc786b61232b13b9542b251.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="27224">
+      <screenshots>
+        <screenshot image="2a9b1a033bc786b61232b13b9542b251.png"/>
+      </screenshots>
+      <description>Open wiki</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user clicks on the English link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="59771fecbd32f8227464b158a2d4519a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6520">
+      <screenshots>
+        <screenshot image="59771fecbd32f8227464b158a2d4519a.png"/>
+      </screenshots>
+      <description>Open english link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see articles in &apos;English&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="59771fecbd32f8227464b158a2d4519a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6390">
+      <screenshots>
+        <screenshot image="59771fecbd32f8227464b158a2d4519a.png"/>
+      </screenshots>
+      <description>See articles in english: English</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

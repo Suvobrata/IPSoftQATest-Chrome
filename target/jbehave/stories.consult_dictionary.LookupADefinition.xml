@@ -1,0 +1,7 @@
+<story path="stories/consult_dictionary/LookupADefinition.story" title="Look up articles in English">
+<scenario keyword="Scenario:" title="Looking up Wikipedia articles in English">
+<step outcome="successful">Given the user is on the Wikipedia home page</step>
+<step outcome="successful">When the user clicks on the English link</step>
+<step outcome="successful">Then they should see articles in &apos;English&apos;</step>
+</scenario>
+</story>

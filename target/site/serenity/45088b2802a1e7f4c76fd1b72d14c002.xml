@@ -1,0 +1,42 @@
+<acceptance-test-run title="Looking up Wikipedia articles in English" name="Looking up Wikipedia articles in English" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="52949" timestamp="2017-02-07T15:17:58.454-05:00" session-id="70ea52b3717ead181c2f8b3d413849bc">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Look up articles in english" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Wikipedia home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="61d458f9a533b92e403fba2e7c6b1f4d.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="38915">
+      <screenshots>
+        <screenshot image="b1dda0b9d700ad544c458758099bcbc1.png"/>
+      </screenshots>
+      <description>Open wiki</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user clicks on the English link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b1dda0b9d700ad544c458758099bcbc1.png"/>
+      <screenshot image="01dd91c3d06899c613e9c6a9d35f211a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5489">
+      <screenshots>
+        <screenshot image="01dd91c3d06899c613e9c6a9d35f211a.png"/>
+      </screenshots>
+      <description>Open english link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see articles in &apos;English&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="01dd91c3d06899c613e9c6a9d35f211a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1192">
+      <screenshots>
+        <screenshot image="01dd91c3d06899c613e9c6a9d35f211a.png"/>
+      </screenshots>
+      <description>See articles in english: English</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
