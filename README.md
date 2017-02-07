@@ -1,6 +1,6 @@
 # IPSoftQATest-Chrome
-This application will run the automated test in Google Chrome Browser.It will open up www.wikipedia.com and click on the 'English'
-tab and check whether it is on the English version.
+This application will run the automated test in Google Chrome Browser.It will open up www.wikipedia.org and click on the 'English'
+link and check whether it is on the English version.
 Serenity-Jbehave-archetype is used for the automation process.
 The serenity application binds firefox on its own.To use it on other browsers we need to download the driver and refer them in properties file.
 For the application to run on Chrome, one needs to download the chrome driver.The following link is the most recent one which I have used.
